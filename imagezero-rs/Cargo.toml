@@ -1,0 +1,19 @@
+# ------------------------------------------------------------------------------
+# Copyright 2021 Uwe Arzt, mail@uwe-arzt.de
+# SPDX-License-Identifier: Apache-2.0
+# ------------------------------------------------------------------------------
+[package]
+name = "imagezero"
+version = "0.0.0"
+authors = ["Uwe Arzt <mail@uwe-arzt.de>"]
+edition = "2018"
+categories = ["algorithms", "computer-vision", "no-std"]
+description = "Pure Rust implementation of the imagezero (losless image compression algorithm) used i.e. in robotics."
+documentation = "https://docs.rs/imagezero"
+keywords = ["image", "compression"]
+license = "Apache-2.0"
+repository = "https://github.com/uwearzt/imagezero"
+
+[dependencies]
+
+[dev-dependencies]
