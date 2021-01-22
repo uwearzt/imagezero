@@ -3,7 +3,8 @@
 // SPDX-License-Identifier: Apache-2.0
 // ------------------------------------------------------------------------------
 
-#![crate_name = "imagezero"]
-#![crate_type = "lib"]
+#![allow(non_upper_case_globals)]
+#![allow(non_camel_case_types)]
+#![allow(non_snake_case)]
 
-pub mod compress;
+include!(concat!(env!("OUT_DIR"), "/bindings.rs"));

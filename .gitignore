@@ -1,2 +1,10 @@
+# Rust
 Cargo.lock
 target/
+
+# images
+*.ppm
+*.iz
+
+# dev
+.vscode

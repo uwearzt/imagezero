@@ -3,7 +3,14 @@
 // SPDX-License-Identifier: Apache-2.0
 // ------------------------------------------------------------------------------
 
-#![crate_name = "imagezero"]
-#![crate_type = "lib"]
+#[cfg(test)]
+mod tests {
 
-pub mod compress;
+use imagezero::*;
+
+    #[test]
+    fn it_works() {
+        compress::doit();
+        assert_eq!(2 + 2, 4);
+    }
+}
