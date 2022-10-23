@@ -7,11 +7,9 @@
 extern crate clap;
 use clap::{App, Arg, ArgGroup};
 
-use std::convert::TryInto;
 
 use std::fs::File;
 use std::io::Read;
-use std::io::Write;
 
 fn main() {
     let parms = App::new("imagezero")
@@ -74,7 +72,7 @@ fn main() {
             println!("Wrong image format");
         }
         let rgb = img.into_rgb8();
-        let (width, height) = rgb.dimensions();
+        let (_width, _height) = rgb.dimensions();
     }
 
     fn decompress(iz: &str, ppm: &str) {

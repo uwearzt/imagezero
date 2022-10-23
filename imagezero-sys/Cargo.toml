@@ -6,12 +6,12 @@
 name = "imagezero-sys"
 version = "0.1.0"
 authors = ["Uwe Arzt <mail@uwe-arzt.de>"]
-edition = "2018"
+edition = "2021"
 
 [dependencies]
 clap = "2.33.3"
-image = "0.23.12"
+image = "0.23.13"
 
 [build-dependencies]
-bindgen = "0.56.0"
+bindgen = "0.59.2"
 cmake = "0.1.45"
