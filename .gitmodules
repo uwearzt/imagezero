@@ -1,3 +1,0 @@
-[submodule "imagezero-sys/imagezero-cpp"]
-	path = imagezero-sys/imagezero-cpp
-	url = git@github.com:uwearzt/imagezero-cpp.git
